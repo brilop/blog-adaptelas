@@ -1,0 +1,65 @@
+.titleblog{
+    align-self: center;
+    display: flex;
+    justify-self: center;
+}
+
+.buttoncreate{
+    width: 100px;
+}
+
+.cardblog{
+    background-color: white;
+    width: 500px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.titlecard{
+    color: #8D18B6;
+
+}
+
+.authorcard{
+    justify-self: first;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 14px;
+    color: grey;
+}
+
+.textcard{
+    padding: 20px;
+    display: flex;
+    text-align: justify;
+}
+
+.imagecard{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.descriptioncard{
+    padding: 20px;
+    display: flex;
+}
+
+.postblog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttondelete{
+    display: flex;
+    margin-bottom: 15px;
+}
